@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Players details</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navvar     -->
+
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a href="" class="navbar-descrip">Home</a></li>
+        <li class="navbar-item">
+          <a href="" class="navbar-descrip">Players</a>
+        </li>
+        <li class="navbar-item">
+          <a href="" class="navbar-descrip">Sports</a>
+        </li>
+        <li class="navbar-item"><a href="" class="navbar-descrip">Club</a></li>
+      </ul>
+    </nav>
+
+    <!-- main section -->
+
+    <section class="main_section">
+        <section class="serach">
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search player..." />
+                    <div class="btn">
+                        <button id="search-button">Search</button>
+                    </div>
+               
+                </div>
+        </section>
+      
+        <div class="player-list" id="player-list">
+      
+        </div>
+        <div class="cart">
+          <h2>My Cart</h2>
+          <p>Cart Count: <span id="cart-count">0</span></p>
+          <ul id="cart-list">
+          </ul>
+        </div>
+      </div>
+      <div id="player-details-frist" onclick="closeDetails()"></div>
+      <div id="player-details" class="player-details">
+        <h2>Player Name</h2>
+        <p>Id:Id</p>
+        <p>Nationality: Nationality</p>
+        <p>Sport: Sport</p>
+        <p>Salary: Salary</p>
+        <p>Description: Description</p>
+        <img src="#" alt="Player Image" />
+        <button id="close-details-button">Close</button>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-link">Privacy Policy</a></li>
+          <li><a href="#" class="footer-link">Terms of Service</a></li>
+          <li><a href="#" class="footer-link">Contact Us</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  >
+  </body>
+</html>
